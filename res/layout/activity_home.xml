@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/friendnotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SendFriendRequestButton" />
+
+    <Button
+        android:id="@+id/messagenotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SendFriendRequestButton" />
+
+ 
+    <Button
+        android:id="@+id/notifications"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signoutButton" />
+   <Button
+        android:id="@+id/signOutActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signoutButton" />
+    <TextView
+        android:id="@+id/helloText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
